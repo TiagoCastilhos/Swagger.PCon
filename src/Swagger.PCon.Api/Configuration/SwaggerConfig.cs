@@ -46,6 +46,10 @@ namespace Swagger.PCon.Api.Configuration
                     {
                         options.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json", description.GroupName.ToUpperInvariant());
                     }
+
+                    //Injeção de css e js
+                    //options.InjectStylesheet();
+                    //options.InjectJavascript();
                 });
             return app;
         }
