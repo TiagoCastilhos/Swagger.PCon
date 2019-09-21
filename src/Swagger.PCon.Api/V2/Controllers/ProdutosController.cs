@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Swagger.PCon.Api.V1
+namespace Swagger.PCon.Api.V2.Controllers
 {
-    [Route("api/v{version:apiVersion}/Produtos")]
     [ApiController]
+    [ApiVersion("2")]
+    [Route("api/v{version:apiVersion}/Produtos")]
     public class ProdutosController : ControllerBase
     {
+
     }
 }

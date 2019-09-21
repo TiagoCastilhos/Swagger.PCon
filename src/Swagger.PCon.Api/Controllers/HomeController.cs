@@ -2,7 +2,7 @@
 
 namespace Swagger.PCon.Api.Controllers
 {
-    [Route("api")]
+    [Route("")]
     [ApiController]
     public class HomeController : ControllerBase
     {

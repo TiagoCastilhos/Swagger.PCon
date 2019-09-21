@@ -13,4 +13,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Swagger.PCon.Domain\Swagger.PCon.Domain.csproj" />
+    <ProjectReference Include="..\Swagger.PCon.Dtos\Swagger.PCon.Dtos.csproj" />
+  </ItemGroup>
+
 </Project>
